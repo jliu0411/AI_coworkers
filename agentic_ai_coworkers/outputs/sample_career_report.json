@@ -1,0 +1,63 @@
+{
+  "interview_id": "11af197b-aca8-4986-92bc-9b51f51ad46d",
+  "job_title": "Entry-Level AI Engineer",
+  "questions_completed": 3,
+  "total_questions": 3,
+  "average_score": 60.0,
+  "complete": true,
+  "answers": [
+    {
+      "question": "Explain the RAG pipeline and how you would evaluate retrieval quality.",
+      "topic": "RAG",
+      "answer": "I am not sure how this works yet.",
+      "result": {
+        "score": 0,
+        "strengths": "Attempted the question.",
+        "missing": [
+          "retrieve",
+          "embedding",
+          "vector",
+          "precision",
+          "recall"
+        ],
+        "feedback": "Discuss indexing/embeddings, retrieval, context grounding, and metrics such as Recall@k.",
+        "method": "demo keyword rubric",
+        "limitations": "Keyword presence does not prove conceptual correctness."
+      }
+    },
+    {
+      "question": "Follow-up challenge: Your previous answer missed retrieve, embedding, vector, precision. Explain these concepts and show how they apply to: Explain the RAG pipeline and how you would evaluate retrieval quality.",
+      "topic": "RAG",
+      "answer": "First, create embeddings for document chunks and store the vectors. For each user request, retrieve the most relevant chunks, then provide them to the generator. Evaluate retrieval with precision@k and recall@k.",
+      "result": {
+        "score": 90,
+        "strengths": "Mentioned retrieve, embedding, vector, precision.",
+        "missing": [],
+        "feedback": "Discuss indexing/embeddings, retrieval, context grounding, and metrics such as Recall@k.",
+        "method": "demo keyword rubric",
+        "limitations": "Keyword presence does not prove conceptual correctness."
+      }
+    },
+    {
+      "question": "Coding exercise: Write a Python function count_words(text) that returns a dictionary of lowercase word frequencies. Ignore punctuation and handle empty input. Explain your approach.",
+      "topic": "Python",
+      "answer": "import re\ndef count_words(text):\n    words = re.findall(r'[a-z0-9]+', text.lower())\n    counts = {}\n    for word in words:\n        counts[word] = counts.get(word, 0) + 1\n    return counts",
+      "result": {
+        "score": 90,
+        "strengths": "Mentioned def, lower, split, dict, return.",
+        "missing": [],
+        "feedback": "A good solution normalizes text, tokenizes words, counts frequencies, handles punctuation and the empty string, and returns a dictionary. Do not execute untrusted submissions.",
+        "method": "demo keyword rubric",
+        "limitations": "Keyword presence does not prove conceptual correctness."
+      }
+    }
+  ],
+  "improvement_topics": [
+    "RAG"
+  ],
+  "next_steps": [
+    "Read an article about your lowest-scoring skill",
+    "Review the feedback and refine your answer",
+    "Repeat the assessment and compare scores"
+  ]
+}

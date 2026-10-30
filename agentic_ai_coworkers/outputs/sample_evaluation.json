@@ -1,0 +1,21 @@
+{
+  "daily": {
+    "article_count": 3,
+    "exactly_three": true,
+    "distinct_url_rate": 1.0,
+    "url_format_rate": 1.0,
+    "metadata_completeness": 1.0,
+    "source_url_reachability": "Not measured; online HTTP checks require live networking",
+    "factual_summary_accuracy": "Not measured; requires manual review against full articles"
+  },
+  "career": {
+    "questions_answered": 3,
+    "complete": true,
+    "average_score": 60.0,
+    "scoring_methods": [
+      "demo keyword rubric"
+    ],
+    "grading_accuracy": "Not measured; needs human-labeled assessment answers",
+    "scoring_caveat": "Demo keyword scores measure term coverage, not correctness."
+  }
+}

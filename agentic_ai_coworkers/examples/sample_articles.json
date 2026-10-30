@@ -1,0 +1,23 @@
+[
+  {
+    "title": "How we detect frontier model misalignment",
+    "published": "2026-10-28",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+    "excerpt": "OpenAI describes monitoring AI agents for behavior that departs from intended goals, including unauthorized actions. The article discusses extending monitoring coverage across training, evaluation and deployment environments. This provides a concrete case study of why observable and reliable agents matter."
+  },
+  {
+    "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+    "published": "2026-10-26",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+    "excerpt": "AWS describes an agentic retrieval architecture deployed using the Cloud Development Kit, with routing across multiple managed knowledge bases and an AgentCore Gateway. The example includes cited retrieval and observability, including evaluations. It contrasts repeated agent-directed retrieval with single-shot RAG."
+  },
+  {
+    "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+    "published": "2026-10-05",
+    "source": "Google Research",
+    "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+    "excerpt": "Google Research examines agentic privacy and security through the lens of contextual integrity. The work highlights the need for agents to respect the context of information and behavioral norms while acting autonomously. The article identifies open research problems at the system, model, and user levels."
+  }
+]

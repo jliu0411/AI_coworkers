@@ -1,0 +1,44 @@
+
+== DAILY TECH UPGRADE AGENT: DEMO ==
+1. Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK (AWS Machine Learning Blog, 2026-10-26)
+   https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/
+   AWS describes an agentic retrieval architecture deployed using the Cloud Development Kit, with routing across multiple managed knowledge bases and an AgentCore Gateway.
+2. How we detect frontier model misalignment (OpenAI, 2026-10-28)
+   https://openai.com/index/how-we-detect-frontier-model-misalignment/
+   OpenAI describes monitoring AI agents for behavior that departs from intended goals, including unauthorized actions.
+3. Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle (Google Research, 2026-10-05)
+   https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/
+   Google Research examines agentic privacy and security through the lens of contextual integrity.
+Daily eval: {
+  "article_count": 3,
+  "exactly_three": true,
+  "distinct_url_rate": 1.0,
+  "url_format_rate": 1.0,
+  "metadata_completeness": 1.0,
+  "source_url_reachability": "Not measured; online HTTP checks require live networking",
+  "factual_summary_accuracy": "Not measured; requires manual review against full articles"
+}
+
+== CAREER COACH AGENT: DEMO ==
+Associate Data Engineer match heuristic: 82
+Junior Backend Software Engineer match heuristic: 79
+Entry-Level AI Engineer match heuristic: 78
+Question 1: Explain the RAG pipeline and how you would evaluate retrieval quality.
+Score: 0
+Question 2: Follow-up challenge: Your previous answer missed retrieve, embedding, vector, precision. Explain these concepts and show how they apply to: Explain the RAG pipeline and how you would evaluate retrieval quality.
+Score: 90
+Question 3: Coding exercise: Write a Python function count_words(text) that returns a dictionary of lowercase word frequencies. Ignore punctuation and handle empty input. Explain your approach.
+Score: 90
+Career eval: {
+  "questions_answered": 3,
+  "complete": true,
+  "average_score": 60.0,
+  "scoring_methods": [
+    "demo keyword rubric"
+  ],
+  "grading_accuracy": "Not measured; needs human-labeled assessment answers",
+  "scoring_caveat": "Demo keyword scores measure term coverage, not correctness."
+}
+Learning gaps: [{"topic": "rag", "weight": 1, "updated_at": "2026-10-30T01:33:49.730604+00:00"}]
+Next brief first article: Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK
+DONE (SQLite progress and sample JSON reports saved in outputs/)

@@ -1,0 +1,22 @@
+digraph agentic {
+ graph [rankdir=TB, bgcolor="#ffffff", pad=0.2, nodesep=.35, ranksep=.48, fontname="DejaVu Sans"];
+ node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12, color="#cbd5e1", fillcolor="#f8fafc", penwidth=1.3, margin="0.2,0.12"];
+ edge [color="#64748b", arrowsize=.7, penwidth=1.3];
+ user [label="Student / User",fillcolor="#dbeafe",color="#93c5fd"];
+ ui [label="Streamlit Dashboard\nDaily Brief  |  Career Coach  |  Progress  |  Evaluation",fillcolor="#dbeafe",color="#93c5fd"];
+ tech [label="DailyTechUpgradeAgent\nProfile → Discover RSS → Rank → Summarize → Save",fillcolor="#dcfce7",color="#86efac"];
+ career [label="nextLevelPersonalCoachForCareerLevel\nFind Jobs → Match Skills → Interview → Assess",fillcolor="#f3e8ff",color="#d8b4fe"];
+ feeds [label="Authority RSS Feeds\nAWS / Microsoft / Google / LangChain / IEEE / ACM",fillcolor="#f1f5f9"];
+ jobs [label="Greenhouse Public Jobs\n+ Pasted Descriptions",fillcolor="#f1f5f9"];
+ llm [label="Optional OpenAI API\nGrounded summaries and interview feedback",fillcolor="#fef3c7",color="#fcd34d"];
+ db [label="SQLite Long-Term Memory\nProfile • Read History • Skill Gaps • Interview Scores",fillcolor="#fee2e2",color="#fca5a5"];
+ brief [label="Top 3 Technical Articles\n18-minute Daily Brief",fillcolor="#ecfdf5"];
+ report [label="Personal Career Readiness Report\nScores, Feedback, Improvement Plan",fillcolor="#faf5ff"];
+ {rank=same; tech; career}
+ {rank=same; feeds; jobs}
+ user -> ui; ui -> tech; ui -> career;
+ feeds -> tech; jobs -> career;
+ tech -> brief; career -> report;
+ tech -> db [dir=both]; career -> db [dir=both];
+ llm -> tech [dir=both,style=dashed]; llm -> career [dir=both,style=dashed];
+}

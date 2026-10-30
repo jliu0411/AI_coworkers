@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fictional-ai-01", "company": "Fictional Demo Company", "title": "Entry-Level AI Engineer", "location": "San Jose, California",
+    "url": "", "source": "Synthetic fixture", "mode": "demo",
+    "description": "This is an invented job description for testing, not a real vacancy. Build RAG and LLM applications using Python, FastAPI, AWS, Docker, testing and Git. Evaluate retrieval quality and deploy APIs. Bachelor's degree or similar projects. New grad welcome."
+  },
+  {
+    "id": "fictional-backend-02", "company": "Fictional Demo Company", "title": "Junior Backend Software Engineer", "location": "Remote, United States",
+    "url": "", "source": "Synthetic fixture", "mode": "demo",
+    "description": "This is a synthetic demonstration job. Work with Python, SQL, FastAPI, PostgreSQL, REST, Docker, Git, AWS, CI/CD and automated testing. Work on API design and performance. Entry-level applicants are welcome."
+  },
+  {
+    "id": "fictional-data-03", "company": "Fictional Demo Company", "title": "Associate Data Engineer", "location": "San Francisco, California",
+    "url": "", "source": "Synthetic fixture", "mode": "demo",
+    "description": "This is a synthetic demonstration job. Build data pipelines with Python, SQL, AWS and testing. Model structured data and improve data quality. Early career applicants are welcome."
+  }
+]
